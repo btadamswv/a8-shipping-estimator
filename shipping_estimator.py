@@ -1,58 +1,59 @@
 import streamlit as st
 import pandas as pd
+import openai
+import os
 
-# Load data
-rate_df = pd.read_csv("shipping_rate_by_country.csv")
-definitions_df = pd.read_csv("shipping_definitions_reference.csv")
+# === CONFIG ===
+st.set_page_config(page_title="Shipping Rate Chat Estimator", layout="wide")
+st.title("💬 Shipping Rate ChatBot")
 
-st.set_page_config(page_title="Shipping Rate Estimator", layout="wide")
-st.title("📦 Shipping Rate Estimator")
+# === Load data ===
+df = pd.read_csv("shipping_rate_by_country.csv")
+definitions = pd.read_csv("shipping_definitions_reference.csv")
 
-# Help/definitions
-with st.expander("📘 What do these terms mean?"):
-    for category in definitions_df['Category'].unique():
-        st.markdown(f"### {category}")
-        subset = definitions_df[definitions_df['Category'] == category]
-        for _, row in subset.iterrows():
-            st.markdown(f"**{row['Name']}**: {row['Definition']}")
+# === OpenAI API Setup ===
+openai.api_key = st.secrets.get("OPENAI_API_KEY") or st.text_input("🔑 Enter your OpenAI API key", type="password")
 
-st.divider()
+# === Define prompt template ===
+def build_prompt(user_input):
+    csv_columns = ", ".join(df.columns)
+    return f"""
+You are a shipping rate assistant. Based on user input, you will extract the most likely:
 
-# User inputs
-col1, col2, col3, col4 = st.columns(4)
-with col1:
-    size = st.selectbox("Package Size", sorted(rate_df['size_tier'].unique()))
-with col2:
-    weight = st.selectbox("Weight Class", sorted(rate_df['weight_class'].unique()))
-with col3:
-    service = st.selectbox("Service Tier", sorted(rate_df['service_tier'].unique()))
-with col4:
-    country = st.selectbox("Destination Country", sorted(rate_df['to_country'].unique()))
+- size_tier (Envelope, Small Box, Medium Box, Large Box, XL/Custom)
+- weight_class (Light, Medium, Heavy, Very Heavy)
+- service_tier (Domestic Ground, International Economy, etc.)
+- to_country (ISO country name from user input)
 
-# Filter and estimate
-filtered = rate_df[
-    (rate_df['size_tier'] == size) &
-    (rate_df['weight_class'] == weight) &
-    (rate_df['service_tier'] == service) &
-    (rate_df['to_country'] == country)
-]
+Then, search a structured shipping rate table with the following columns:
+{csv_columns}
 
-st.divider()
+Return your output as:
+1. A summary of your interpretation
+2. The matching table rows (up to 5 rows max)
 
-# Result
-st.subheader("Estimated Shipping Cost")
-if not filtered.empty:
-    row = filtered.iloc[0]
-    st.success(f"""
-    - 📦 **Package Size**: {size}  
-    - ⚖️ **Weight Class**: {weight}  
-    - 🚚 **Service Tier**: {service}  
-    - 🌍 **To Country**: {country}
+User input:
+\"\"\"
+{user_input}
+\"\"\"
+"""
 
-    ### 💰 Estimated Rate Range
-    - **Low**: ${row['low_rate']}
-    - **Average**: ${row['average_rate']}
-    - **High**: ${row['high_rate']}
-    """)
-else:
-    st.warning("No matching rate found for this combination. Try adjusting inputs.")
+# === Chat Interface ===
+with st.form("chat"):
+    user_query = st.text_area("Ask a shipping cost question:")
+    submitted = st.form_submit_button("Estimate")
+
+# === On submission, query GPT and return estimates ===
+if submitted and openai.api_key and user_query:
+    prompt = build_prompt(user_query)
+
+    with st.spinner("Talking to ChatGPT..."):
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+        )
+
+    gpt_reply = response['choices'][0]['message']['content']
+    st.markdown("### 🤖 GPT Interpretation & Result")
+    st.markdown(gpt_reply)
