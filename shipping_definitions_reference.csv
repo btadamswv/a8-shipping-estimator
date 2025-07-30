@@ -1,0 +1,31 @@
+Category,Name,Definition
+Size Tier,Envelope,"0–100 in³ (flat mailers, cards, stickers)"
+Size Tier,Small Box,"101–500 in³ (pins, soft goods, small items)"
+Size Tier,Medium Box,"501–1500 in³ (apparel, water bottles, etc.)"
+Size Tier,Large Box,"1501–4000 in³ (kits, bundled products)"
+Size Tier,XL/Custom,4000+ in³ (oversize or custom builds)
+Weight Class,Light,"0–16 oz (t-shirts, notebooks)"
+Weight Class,Medium,"17–48 oz (hoodies, water bottles)"
+Weight Class,Heavy,"49–160 oz (bundled kits, bags)"
+Weight Class,Very Heavy,"160+ oz (equipment, large kits)"
+Service Tier,Domestic Economy,"USPS Ground Advantage, ParcelSelect, SurePost"
+Service Tier,Domestic Ground,"UPS Ground, FedEx Ground, Ground Home Delivery"
+Service Tier,Domestic 2 Day,"2nd Day Air, FedEx 2 Day"
+Service Tier,Domestic Next Day,"Next Day Air, Saver, Standard Overnight"
+Service Tier,Domestic Next Day Early AM,Next Day Air Early AM
+Service Tier,Domestic Expedited,FedEx Express Saver
+Service Tier,Domestic Letter,First Class or Flat envelopes
+Service Tier,International Economy,"First Class Int'l, Priority Mail Int’l, Economy DDP"
+Service Tier,International Standard,Expedited or standard international services
+Service Tier,International Expedited,"UPS Saver, FedEx Int’l Priority"
+Shipping Region,West Coast Domestic,"US ZIP codes in CA, WA, OR, NV, etc."
+Shipping Region,Central Domestic,"ZIPs in TX, IL, KS, etc."
+Shipping Region,Eastern Domestic,"ZIPs in NY, PA, NC, etc."
+Shipping Region,International Canada,Destination country: CA
+Shipping Region,International Europe,"GB, DE, FR, ES, IT, etc."
+Shipping Region,"International Japan, Korea, China, Etc","JP, KR, CN"
+Shipping Region,International Rest of Asia,"SG, IN, PH, TH, etc."
+Shipping Region,International South America,"BR, AR, CO, CL, etc."
+Shipping Region,International Africa,"ZA, NG, KE, etc."
+Shipping Region,International Mexico,MX
+Shipping Region,International Other,Any country not in above categories

@@ -1,0 +1,345 @@
+size_tier,weight_class,service_tier,shipping_region,low_rate,average_rate,high_rate
+Envelope,Heavy,Domestic Economy,Domestic Other,8.24,41.85,276.01
+Envelope,Heavy,Domestic Economy,Eastern Domestic,6.29,6.56,6.82
+Envelope,Heavy,Domestic Economy,West Coast Domestic,5.85,28.45,276.01
+Envelope,Heavy,Domestic Ground,West Coast Domestic,14.35,14.88,15.16
+Envelope,Heavy,International Economy,International Canada,16.13,16.13,16.13
+Envelope,Heavy,International Economy,International Europe,15.68,15.68,15.68
+Envelope,Heavy,International Economy,"International Japan, Korea, China, Etc",14.88,15.18,15.49
+Envelope,Heavy,International Standard,International Europe,34.17,37.75,38.91
+Envelope,Light,Domestic 2 Day,International Other,22.1,22.1,22.1
+Envelope,Light,Domestic 2 Day,West Coast Domestic,15.63,18.78,25.04
+Envelope,Light,Domestic Economy,Domestic Other,4.47,6.21,10.07
+Envelope,Light,Domestic Economy,Eastern Domestic,3.67,5.68,8.94
+Envelope,Light,Domestic Economy,International Other,4.71,6.6,9.69
+Envelope,Light,Domestic Economy,West Coast Domestic,3.57,5.83,10.07
+Envelope,Light,Domestic Ground,Domestic Other,6.6,13.54,27.84
+Envelope,Light,Domestic Ground,Eastern Domestic,7.27,13.08,18.31
+Envelope,Light,Domestic Ground,International Canada,28.58,28.58,28.58
+Envelope,Light,Domestic Ground,West Coast Domestic,6.54,9.9,21.77
+Envelope,Light,Domestic Letter,Domestic Other,0.69,0.75,1.25
+Envelope,Light,Domestic Letter,Eastern Domestic,0.69,0.82,1.25
+Envelope,Light,Domestic Letter,West Coast Domestic,0.69,0.79,1.53
+Envelope,Light,Domestic Next Day,Domestic Other,30.86,34.17,37.63
+Envelope,Light,Domestic Next Day,Eastern Domestic,28.15,28.15,28.15
+Envelope,Light,Domestic Next Day,West Coast Domestic,21.72,31.43,40.87
+Envelope,Light,International Economy,International Canada,10.26,10.52,24.69
+Envelope,Light,International Economy,International Europe,6.26,10.63,27.92
+Envelope,Light,International Economy,"International Japan, Korea, China, Etc",8.65,11.64,126.44
+Envelope,Light,International Economy,International Mexico,5.3,8.71,17.15
+Envelope,Light,International Economy,International Other,10.35,13.25,39.16
+Envelope,Light,International Economy,International Rest of Asia,10.32,11.86,29.6
+Envelope,Light,International Economy,International South America,14.68,14.68,14.68
+Envelope,Light,International Expedited,International Canada,28.65,28.65,28.65
+Envelope,Light,International Expedited,International Europe,30.65,34.88,45.29
+Envelope,Light,International Expedited,"International Japan, Korea, China, Etc",29.8,29.8,29.8
+Envelope,Light,International Expedited,International Other,30.71,59.03,155.68
+Envelope,Light,International Expedited,International Rest of Asia,97.86,97.86,97.86
+Envelope,Light,International Standard,International Africa,25.32,27.0,27.37
+Envelope,Light,International Standard,International Canada,21.61,29.75,94.75
+Envelope,Light,International Standard,International Europe,23.83,27.86,98.53
+Envelope,Light,International Standard,"International Japan, Korea, China, Etc",23.7,32.1,149.35
+Envelope,Light,International Standard,International Mexico,19.39,20.08,23.57
+Envelope,Light,International Standard,International Other,24.9,37.25,99.6
+Envelope,Light,International Standard,International Rest of Asia,24.52,27.5,32.4
+Envelope,Light,International Standard,International South America,35.43,65.64,107.34
+Envelope,Medium,Domestic Economy,Domestic Other,8.24,33.36,276.01
+Envelope,Medium,Domestic Economy,Eastern Domestic,6.29,19.99,162.25
+Envelope,Medium,Domestic Economy,International Other,8.53,8.53,8.53
+Envelope,Medium,Domestic Economy,West Coast Domestic,5.85,25.56,277.76
+Envelope,Medium,Domestic Ground,Domestic Other,13.63,13.72,13.8
+Envelope,Medium,Domestic Ground,Eastern Domestic,13.72,16.04,17.32
+Envelope,Medium,Domestic Ground,West Coast Domestic,10.17,14.53,18.53
+Envelope,Medium,Domestic Next Day,Domestic Other,42.67,42.67,42.67
+Envelope,Medium,Domestic Next Day,Eastern Domestic,38.11,38.11,38.11
+Envelope,Medium,Domestic Next Day,West Coast Domestic,19.65,23.44,27.22
+Envelope,Medium,International Economy,International Canada,12.08,12.78,24.69
+Envelope,Medium,International Economy,International Europe,7.01,12.4,15.67
+Envelope,Medium,International Economy,"International Japan, Korea, China, Etc",11.12,12.21,13.88
+Envelope,Medium,International Economy,International Mexico,9.27,9.44,10.31
+Envelope,Medium,International Economy,International Other,11.87,15.57,39.16
+Envelope,Medium,International Economy,International Rest of Asia,11.38,12.74,16.8
+Envelope,Medium,International Standard,International Canada,26.85,38.63,97.07
+Envelope,Medium,International Standard,International Europe,25.53,40.29,211.09
+Envelope,Medium,International Standard,"International Japan, Korea, China, Etc",24.44,52.19,196.07
+Envelope,Medium,International Standard,International Mexico,19.42,20.11,22.47
+Envelope,Medium,International Standard,International Other,28.31,36.49,106.71
+Envelope,Medium,International Standard,International Rest of Asia,25.05,28.5,32.2
+Envelope,Medium,International Standard,International South America,35.43,35.43,35.43
+Envelope,Very Heavy,Domestic 2 Day,West Coast Domestic,236.69,236.69,236.69
+Envelope,Very Heavy,International Economy,International Other,46.25,46.25,46.25
+Large Box,Heavy,Domestic 2 Day,Domestic Other,101.25,105.01,108.77
+Large Box,Heavy,Domestic 2 Day,Eastern Domestic,44.66,50.43,52.99
+Large Box,Heavy,Domestic 2 Day,West Coast Domestic,30.92,96.06,123.78
+Large Box,Heavy,Domestic Economy,Domestic Other,19.53,25.59,26.87
+Large Box,Heavy,Domestic Economy,Eastern Domestic,16.79,17.44,18.09
+Large Box,Heavy,Domestic Economy,West Coast Domestic,10.86,23.61,276.01
+Large Box,Heavy,Domestic Ground,Domestic Other,22.41,27.76,60.36
+Large Box,Heavy,Domestic Ground,Eastern Domestic,10.55,14.87,21.84
+Large Box,Heavy,Domestic Ground,West Coast Domestic,9.79,17.77,38.27
+Large Box,Heavy,Domestic Next Day,Eastern Domestic,67.19,72.88,74.56
+Large Box,Heavy,Domestic Next Day,West Coast Domestic,73.28,88.18,124.01
+Large Box,Heavy,International Economy,International Canada,230.1,230.1,230.1
+Large Box,Heavy,International Economy,International Europe,14.81,23.3,32.01
+Large Box,Heavy,International Economy,"International Japan, Korea, China, Etc",14.88,14.88,14.88
+Large Box,Heavy,International Economy,International Rest of Asia,34.28,34.28,34.28
+Large Box,Heavy,International Expedited,International Europe,70.56,71.44,75.84
+Large Box,Heavy,International Expedited,"International Japan, Korea, China, Etc",79.16,79.16,79.16
+Large Box,Heavy,International Standard,International Canada,35.98,45.49,114.74
+Large Box,Heavy,International Standard,International Europe,56.3,66.8,140.54
+Large Box,Heavy,International Standard,"International Japan, Korea, China, Etc",69.86,88.28,139.4
+Large Box,Heavy,International Standard,International Mexico,46.15,46.15,46.15
+Large Box,Heavy,International Standard,International Other,56.3,95.2,165.39
+Large Box,Heavy,International Standard,International Rest of Asia,72.16,104.84,156.82
+Large Box,Heavy,International Standard,International South America,102.93,106.7,110.46
+Large Box,Light,Domestic 2 Day,West Coast Domestic,35.57,77.51,101.09
+Large Box,Light,Domestic Ground,West Coast Domestic,11.82,17.3,22.77
+Large Box,Medium,Domestic Economy,Eastern Domestic,6.63,6.63,6.63
+Large Box,Medium,Domestic Economy,West Coast Domestic,6.63,9.79,18.68
+Large Box,Medium,Domestic Ground,West Coast Domestic,10.19,14.01,25.7
+Large Box,Medium,Domestic Next Day,West Coast Domestic,58.43,69.94,85.37
+Large Box,Medium,International Standard,International Canada,40.92,40.92,40.92
+Large Box,Medium,International Standard,International Europe,54.86,60.5,70.88
+Large Box,Medium,International Standard,"International Japan, Korea, China, Etc",69.86,75.05,77.65
+Large Box,Medium,International Standard,International Other,54.86,81.75,91.93
+Large Box,Medium,International Standard,International Rest of Asia,154.6,154.6,154.6
+Large Box,Very Heavy,Domestic 2 Day,Domestic Other,76.81,85.5,98.36
+Large Box,Very Heavy,Domestic 2 Day,Eastern Domestic,38.8,44.78,51.86
+Large Box,Very Heavy,Domestic 2 Day,West Coast Domestic,20.98,71.27,119.7
+Large Box,Very Heavy,Domestic Economy,West Coast Domestic,14.7,69.42,276.01
+Large Box,Very Heavy,Domestic Ground,Domestic Other,25.92,31.66,70.91
+Large Box,Very Heavy,Domestic Ground,Eastern Domestic,11.75,16.29,21.75
+Large Box,Very Heavy,Domestic Ground,International Other,72.83,74.61,76.39
+Large Box,Very Heavy,Domestic Ground,West Coast Domestic,0.01,20.59,77.1
+Large Box,Very Heavy,Domestic Next Day,Domestic Other,116.43,116.43,116.43
+Large Box,Very Heavy,Domestic Next Day,Eastern Domestic,75.27,109.9,146.31
+Large Box,Very Heavy,Domestic Next Day,West Coast Domestic,85.5,122.85,233.83
+Large Box,Very Heavy,Domestic Next Day Early AM,West Coast Domestic,283.16,333.17,380.5
+Large Box,Very Heavy,International Economy,International Canada,47.45,47.45,47.45
+Large Box,Very Heavy,International Expedited,International Europe,73.2,76.01,82.82
+Large Box,Very Heavy,International Expedited,"International Japan, Korea, China, Etc",79.16,79.77,83.19
+Large Box,Very Heavy,International Expedited,International Rest of Asia,78.69,90.01,118.3
+Large Box,Very Heavy,International Standard,International Africa,104.35,155.91,218.92
+Large Box,Very Heavy,International Standard,International Canada,45.1,53.37,132.7
+Large Box,Very Heavy,International Standard,International Europe,0.01,82.09,466.81
+Large Box,Very Heavy,International Standard,"International Japan, Korea, China, Etc",0.01,49.17,138.48
+Large Box,Very Heavy,International Standard,International Mexico,50.96,57.85,64.32
+Large Box,Very Heavy,International Standard,International Other,0.01,79.44,197.35
+Large Box,Very Heavy,International Standard,International Rest of Asia,0.01,64.21,169.17
+Large Box,Very Heavy,International Standard,International South America,130.15,156.63,219.53
+Medium Box,Heavy,Domestic 2 Day,Domestic Other,32.2,40.11,53.15
+Medium Box,Heavy,Domestic 2 Day,West Coast Domestic,15.91,34.61,55.67
+Medium Box,Heavy,Domestic Economy,Domestic Other,13.28,26.26,276.01
+Medium Box,Heavy,Domestic Economy,Eastern Domestic,8.0,15.74,133.68
+Medium Box,Heavy,Domestic Economy,West Coast Domestic,7.06,11.54,186.59
+Medium Box,Heavy,Domestic Expedited,West Coast Domestic,19.98,21.94,22.98
+Medium Box,Heavy,Domestic Ground,Domestic Other,18.16,46.53,103.41
+Medium Box,Heavy,Domestic Ground,Eastern Domestic,9.79,13.42,18.03
+Medium Box,Heavy,Domestic Ground,West Coast Domestic,8.43,15.7,30.96
+Medium Box,Heavy,Domestic Next Day,Domestic Other,70.1,77.02,83.94
+Medium Box,Heavy,Domestic Next Day,West Coast Domestic,45.43,60.86,83.89
+Medium Box,Heavy,Domestic Next Day Early AM,West Coast Domestic,181.7,181.7,181.7
+Medium Box,Heavy,International Economy,International Europe,19.3,19.3,19.3
+Medium Box,Heavy,International Economy,"International Japan, Korea, China, Etc",17.29,17.29,17.29
+Medium Box,Heavy,International Economy,International Other,18.45,32.36,65.75
+Medium Box,Heavy,International Expedited,International Canada,41.29,41.29,41.29
+Medium Box,Heavy,International Expedited,International Europe,45.58,55.86,126.09
+Medium Box,Heavy,International Expedited,"International Japan, Korea, China, Etc",52.64,52.64,52.64
+Medium Box,Heavy,International Expedited,International Other,52.84,70.52,127.9
+Medium Box,Heavy,International Expedited,International Rest of Asia,49.07,65.68,124.94
+Medium Box,Heavy,International Standard,International Canada,30.17,35.88,46.15
+Medium Box,Heavy,International Standard,International Europe,41.74,48.47,121.45
+Medium Box,Heavy,International Standard,International Mexico,34.26,68.03,101.8
+Medium Box,Heavy,International Standard,International Other,43.11,61.66,138.17
+Medium Box,Heavy,International Standard,International Rest of Asia,55.12,56.78,65.83
+Medium Box,Heavy,International Standard,International South America,72.97,72.97,72.97
+Medium Box,Light,Domestic 2 Day,Eastern Domestic,23.17,23.17,23.17
+Medium Box,Light,Domestic 2 Day,West Coast Domestic,23.17,23.17,23.17
+Medium Box,Light,Domestic Economy,Domestic Other,5.8,5.8,5.8
+Medium Box,Light,Domestic Economy,Eastern Domestic,5.24,5.66,6.07
+Medium Box,Light,Domestic Economy,West Coast Domestic,4.08,5.49,6.4
+Medium Box,Light,Domestic Ground,Domestic Other,47.69,47.69,47.69
+Medium Box,Light,Domestic Ground,West Coast Domestic,9.79,13.88,30.92
+Medium Box,Light,Domestic Next Day,Eastern Domestic,55.0,55.0,55.0
+Medium Box,Light,Domestic Next Day,West Coast Domestic,40.1,61.39,82.68
+Medium Box,Light,International Economy,"International Japan, Korea, China, Etc",11.61,11.61,11.61
+Medium Box,Medium,Domestic 2 Day,Domestic Other,32.79,33.13,33.47
+Medium Box,Medium,Domestic 2 Day,Eastern Domestic,30.91,30.91,30.91
+Medium Box,Medium,Domestic 2 Day,West Coast Domestic,15.94,29.27,46.0
+Medium Box,Medium,Domestic Economy,Domestic Other,9.3,10.43,11.71
+Medium Box,Medium,Domestic Economy,Eastern Domestic,6.92,58.99,162.25
+Medium Box,Medium,Domestic Economy,West Coast Domestic,6.21,14.93,276.01
+Medium Box,Medium,Domestic Ground,Domestic Other,14.96,44.46,100.76
+Medium Box,Medium,Domestic Ground,Eastern Domestic,9.63,13.81,18.33
+Medium Box,Medium,Domestic Ground,West Coast Domestic,0.01,13.64,32.72
+Medium Box,Medium,Domestic Next Day,Eastern Domestic,37.79,37.79,37.79
+Medium Box,Medium,Domestic Next Day,West Coast Domestic,39.03,56.67,83.94
+Medium Box,Medium,International Economy,International Europe,17.97,18.35,19.3
+Medium Box,Medium,International Economy,"International Japan, Korea, China, Etc",12.62,12.62,12.62
+Medium Box,Medium,International Economy,International Other,13.55,28.03,53.4
+Medium Box,Medium,International Expedited,International Canada,27.77,29.66,31.8
+Medium Box,Medium,International Expedited,International Europe,35.47,41.34,78.41
+Medium Box,Medium,International Expedited,International Other,40.65,51.69,78.41
+Medium Box,Medium,International Expedited,International South America,54.43,55.66,58.73
+Medium Box,Medium,International Standard,International Canada,36.81,36.99,37.17
+Medium Box,Medium,International Standard,International Europe,38.7,49.01,59.08
+Medium Box,Medium,International Standard,"International Japan, Korea, China, Etc",40.33,40.38,40.61
+Medium Box,Medium,International Standard,International Other,50.09,55.93,58.85
+Medium Box,Medium,International Standard,International South America,59.4,59.4,59.4
+Medium Box,Very Heavy,Domestic 2 Day,Eastern Domestic,23.9,23.9,23.9
+Medium Box,Very Heavy,Domestic 2 Day,West Coast Domestic,64.73,64.73,64.73
+Medium Box,Very Heavy,Domestic Economy,Domestic Other,15.61,15.61,15.61
+Medium Box,Very Heavy,Domestic Economy,Eastern Domestic,8.93,10.29,10.74
+Medium Box,Very Heavy,Domestic Economy,West Coast Domestic,7.59,13.09,15.61
+Medium Box,Very Heavy,Domestic Ground,Domestic Other,20.61,21.72,22.28
+Medium Box,Very Heavy,Domestic Ground,Eastern Domestic,13.41,14.39,14.91
+Medium Box,Very Heavy,Domestic Ground,West Coast Domestic,10.27,15.49,24.82
+Medium Box,Very Heavy,Domestic Next Day,West Coast Domestic,38.21,68.0,87.58
+Medium Box,Very Heavy,International Expedited,International Europe,60.88,69.49,76.92
+Medium Box,Very Heavy,International Expedited,"International Japan, Korea, China, Etc",74.71,74.71,74.71
+Medium Box,Very Heavy,International Expedited,International Other,65.39,70.65,76.55
+Medium Box,Very Heavy,International Expedited,International Rest of Asia,52.66,52.66,52.66
+Medium Box,Very Heavy,International Standard,International Canada,43.5,48.8,54.1
+Medium Box,Very Heavy,International Standard,International Europe,47.91,73.16,193.49
+Medium Box,Very Heavy,International Standard,International Rest of Asia,66.01,66.01,66.01
+Small Box,Heavy,Domestic 2 Day,Domestic Other,34.16,37.26,40.36
+Small Box,Heavy,Domestic 2 Day,Eastern Domestic,23.84,23.84,23.84
+Small Box,Heavy,Domestic 2 Day,West Coast Domestic,20.55,31.88,53.99
+Small Box,Heavy,Domestic Economy,Domestic Other,8.24,9.25,10.12
+Small Box,Heavy,Domestic Economy,Eastern Domestic,6.29,6.94,7.36
+Small Box,Heavy,Domestic Economy,West Coast Domestic,5.85,8.36,162.25
+Small Box,Heavy,Domestic Expedited,West Coast Domestic,17.89,19.9,30.07
+Small Box,Heavy,Domestic Ground,Domestic Other,14.91,16.75,18.59
+Small Box,Heavy,Domestic Ground,West Coast Domestic,10.17,11.76,14.64
+Small Box,Heavy,Domestic Next Day,Domestic Other,54.85,54.85,54.85
+Small Box,Heavy,Domestic Next Day,West Coast Domestic,37.7,40.03,42.36
+Small Box,Heavy,Domestic Next Day Early AM,West Coast Domestic,193.01,193.01,193.01
+Small Box,Heavy,International Economy,International Europe,20.01,20.01,20.01
+Small Box,Heavy,International Economy,"International Japan, Korea, China, Etc",17.29,17.29,17.29
+Small Box,Heavy,International Economy,International Other,77.83,77.83,77.83
+Small Box,Heavy,International Expedited,International Africa,62.19,62.19,62.19
+Small Box,Heavy,International Expedited,International Canada,44.11,47.62,48.39
+Small Box,Heavy,International Expedited,International Europe,38.91,61.51,132.5
+Small Box,Heavy,International Expedited,International Other,35.33,64.55,131.75
+Small Box,Heavy,International Expedited,International Rest of Asia,45.68,57.29,115.37
+Small Box,Heavy,International Standard,International Africa,48.61,48.96,49.3
+Small Box,Heavy,International Standard,International Canada,23.89,30.62,38.53
+Small Box,Heavy,International Standard,International Europe,33.96,38.61,107.64
+Small Box,Heavy,International Standard,International Other,33.96,44.58,111.7
+Small Box,Heavy,International Standard,International Rest of Asia,40.1,41.82,45.86
+Small Box,Light,Domestic 2 Day,West Coast Domestic,15.73,19.7,29.03
+Small Box,Light,Domestic Economy,Domestic Other,4.51,6.36,9.28
+Small Box,Light,Domestic Economy,Eastern Domestic,4.08,5.44,8.74
+Small Box,Light,Domestic Economy,International Other,6.83,7.0,7.16
+Small Box,Light,Domestic Economy,West Coast Domestic,3.96,5.73,9.28
+Small Box,Light,Domestic Expedited,West Coast Domestic,16.81,16.81,16.81
+Small Box,Light,Domestic Ground,Domestic Other,13.85,13.85,13.85
+Small Box,Light,Domestic Ground,Eastern Domestic,11.74,13.34,13.8
+Small Box,Light,Domestic Ground,West Coast Domestic,6.6,12.74,31.33
+Small Box,Light,Domestic Next Day,Domestic Other,30.95,30.95,30.95
+Small Box,Light,Domestic Next Day,Eastern Domestic,30.74,30.74,30.74
+Small Box,Light,Domestic Next Day,West Coast Domestic,28.73,38.28,57.86
+Small Box,Light,Domestic Next Day Early AM,West Coast Domestic,126.16,140.24,165.27
+Small Box,Light,International Economy,International Canada,10.26,13.46,126.09
+Small Box,Light,International Economy,International Europe,10.35,11.36,14.05
+Small Box,Light,International Economy,"International Japan, Korea, China, Etc",9.89,11.17,13.09
+Small Box,Light,International Economy,International Mexico,8.24,8.94,9.27
+Small Box,Light,International Economy,International Other,10.33,18.51,192.16
+Small Box,Light,International Economy,International Rest of Asia,10.32,12.63,14.04
+Small Box,Light,International Economy,International South America,14.68,16.28,16.3
+Small Box,Light,International Expedited,International Europe,35.25,45.09,78.41
+Small Box,Light,International Expedited,"International Japan, Korea, China, Etc",34.22,34.22,34.22
+Small Box,Light,International Standard,International Africa,25.42,31.07,32.97
+Small Box,Light,International Standard,International Canada,21.52,32.07,98.01
+Small Box,Light,International Standard,International Europe,25.0,29.4,98.86
+Small Box,Light,International Standard,"International Japan, Korea, China, Etc",23.7,24.08,24.44
+Small Box,Light,International Standard,International Mexico,19.39,19.53,19.66
+Small Box,Light,International Standard,International Other,25.05,38.43,102.43
+Small Box,Light,International Standard,International Rest of Asia,25.08,38.84,98.61
+Small Box,Medium,Domestic 2 Day,Domestic Other,29.82,30.05,30.5
+Small Box,Medium,Domestic 2 Day,Eastern Domestic,23.84,23.84,23.84
+Small Box,Medium,Domestic 2 Day,West Coast Domestic,15.65,20.98,33.27
+Small Box,Medium,Domestic Economy,Domestic Other,8.24,15.2,276.01
+Small Box,Medium,Domestic Economy,Eastern Domestic,6.29,8.18,162.25
+Small Box,Medium,Domestic Economy,International Other,9.74,9.74,9.74
+Small Box,Medium,Domestic Economy,West Coast Domestic,5.85,8.13,276.01
+Small Box,Medium,Domestic Expedited,West Coast Domestic,11.45,19.34,25.43
+Small Box,Medium,Domestic Ground,Domestic Other,7.15,10.84,15.0
+Small Box,Medium,Domestic Ground,Eastern Domestic,13.72,13.72,13.72
+Small Box,Medium,Domestic Ground,International Other,27.81,27.81,27.81
+Small Box,Medium,Domestic Ground,West Coast Domestic,7.15,11.41,18.51
+Small Box,Medium,Domestic Next Day,Domestic Other,46.42,46.42,46.42
+Small Box,Medium,Domestic Next Day,Eastern Domestic,36.27,37.17,38.08
+Small Box,Medium,Domestic Next Day,West Coast Domestic,26.86,41.01,49.24
+Small Box,Medium,Domestic Next Day Early AM,West Coast Domestic,145.41,145.41,145.41
+Small Box,Medium,International Economy,International Canada,14.12,14.12,14.12
+Small Box,Medium,International Economy,International Europe,11.87,14.99,28.22
+Small Box,Medium,International Economy,"International Japan, Korea, China, Etc",11.6,11.86,12.62
+Small Box,Medium,International Economy,International Mexico,9.27,9.27,9.27
+Small Box,Medium,International Economy,International Other,14.87,60.73,189.22
+Small Box,Medium,International Economy,International Rest of Asia,16.8,16.8,16.8
+Small Box,Medium,International Economy,International South America,16.3,16.3,16.3
+Small Box,Medium,International Expedited,International Africa,55.47,55.47,55.47
+Small Box,Medium,International Expedited,International Canada,26.23,29.27,31.29
+Small Box,Medium,International Expedited,International Europe,30.79,37.13,60.4
+Small Box,Medium,International Expedited,International Other,31.03,51.64,110.99
+Small Box,Medium,International Expedited,International Rest of Asia,34.51,55.31,109.08
+Small Box,Medium,International Standard,International Africa,31.69,34.5,39.83
+Small Box,Medium,International Standard,International Canada,21.52,27.58,97.53
+Small Box,Medium,International Standard,International Europe,25.53,31.01,106.49
+Small Box,Medium,International Standard,"International Japan, Korea, China, Etc",24.44,25.2,29.71
+Small Box,Medium,International Standard,International Mexico,19.7,20.52,23.76
+Small Box,Medium,International Standard,International Other,25.53,39.56,118.29
+Small Box,Medium,International Standard,International Rest of Asia,24.99,38.66,107.58
+Small Box,Medium,International Standard,International South America,35.87,35.9,36.23
+Small Box,Very Heavy,Domestic 2 Day,Domestic Other,64.73,64.73,64.73
+Small Box,Very Heavy,Domestic 2 Day,West Coast Domestic,29.11,87.67,269.47
+Small Box,Very Heavy,Domestic Economy,West Coast Domestic,6.82,8.1,9.39
+Small Box,Very Heavy,Domestic Ground,International Other,119.64,119.64,119.64
+Small Box,Very Heavy,Domestic Ground,West Coast Domestic,10.23,25.44,60.13
+Small Box,Very Heavy,International Expedited,International Canada,131.74,131.74,131.74
+Small Box,Very Heavy,International Expedited,International Europe,60.88,254.84,448.8
+Small Box,Very Heavy,International Standard,"International Japan, Korea, China, Etc",130.07,130.07,130.07
+XL/Custom,Heavy,Domestic 2 Day,Eastern Domestic,73.42,89.68,99.49
+XL/Custom,Heavy,Domestic 2 Day,West Coast Domestic,45.79,67.63,96.42
+XL/Custom,Heavy,Domestic Economy,Domestic Other,40.52,77.77,115.02
+XL/Custom,Heavy,Domestic Economy,Eastern Domestic,25.0,25.0,25.0
+XL/Custom,Heavy,Domestic Economy,West Coast Domestic,22.11,74.73,116.56
+XL/Custom,Heavy,Domestic Ground,Eastern Domestic,17.74,30.1,71.19
+XL/Custom,Heavy,Domestic Ground,West Coast Domestic,16.35,32.17,99.32
+XL/Custom,Heavy,Domestic Next Day,West Coast Domestic,136.72,156.29,166.07
+XL/Custom,Heavy,International Economy,International Europe,18.82,18.82,18.82
+XL/Custom,Heavy,International Economy,"International Japan, Korea, China, Etc",16.28,16.28,16.28
+XL/Custom,Heavy,International Economy,International Other,18.74,18.74,18.74
+XL/Custom,Heavy,International Economy,International Rest of Asia,43.83,43.83,43.83
+XL/Custom,Heavy,International Expedited,International Mexico,138.82,138.82,138.82
+XL/Custom,Heavy,International Standard,International Canada,85.93,87.55,96.89
+XL/Custom,Heavy,International Standard,International Europe,104.87,118.25,126.85
+XL/Custom,Heavy,International Standard,"International Japan, Korea, China, Etc",113.67,135.6,175.41
+XL/Custom,Heavy,International Standard,International Mexico,73.94,74.92,75.91
+XL/Custom,Heavy,International Standard,International Other,118.22,187.19,200.98
+XL/Custom,Heavy,International Standard,International Rest of Asia,120.44,120.44,120.44
+XL/Custom,Heavy,International Standard,International South America,216.59,216.59,216.59
+XL/Custom,Light,International Standard,International Rest of Asia,327.1,327.1,327.1
+XL/Custom,Medium,Domestic 2 Day,West Coast Domestic,64.26,64.26,64.26
+XL/Custom,Medium,Domestic Ground,West Coast Domestic,39.61,58.41,88.46
+XL/Custom,Very Heavy,Domestic 2 Day,Domestic Other,175.04,234.81,292.9
+XL/Custom,Very Heavy,Domestic 2 Day,Eastern Domestic,64.16,106.77,149.44
+XL/Custom,Very Heavy,Domestic 2 Day,West Coast Domestic,35.42,147.77,438.13
+XL/Custom,Very Heavy,Domestic Economy,Domestic Other,36.92,36.92,36.92
+XL/Custom,Very Heavy,Domestic Economy,West Coast Domestic,67.33,113.32,173.91
+XL/Custom,Very Heavy,Domestic Ground,Domestic Other,42.04,42.04,42.04
+XL/Custom,Very Heavy,Domestic Ground,Eastern Domestic,74.49,74.49,74.49
+XL/Custom,Very Heavy,Domestic Ground,West Coast Domestic,15.71,45.34,181.54
+XL/Custom,Very Heavy,Domestic Next Day,Domestic Other,258.51,258.51,258.51
+XL/Custom,Very Heavy,Domestic Next Day,Eastern Domestic,126.01,178.01,233.67
+XL/Custom,Very Heavy,Domestic Next Day,West Coast Domestic,89.85,212.82,631.49
+XL/Custom,Very Heavy,Domestic Next Day Early AM,West Coast Domestic,351.47,537.87,631.07
+XL/Custom,Very Heavy,International Expedited,International Canada,148.52,204.82,214.32
+XL/Custom,Very Heavy,International Expedited,"International Japan, Korea, China, Etc",132.83,132.83,132.83
+XL/Custom,Very Heavy,International Expedited,International Rest of Asia,261.18,261.18,261.18
+XL/Custom,Very Heavy,International Standard,International Canada,123.59,150.71,162.4
+XL/Custom,Very Heavy,International Standard,International Europe,0.01,667.56,3418.66
+XL/Custom,Very Heavy,International Standard,"International Japan, Korea, China, Etc",172.59,172.59,172.59
+XL/Custom,Very Heavy,International Standard,International Other,273.59,308.5,343.42
+XL/Custom,Very Heavy,International Standard,International Rest of Asia,327.1,327.1,327.1
