@@ -25,7 +25,8 @@ if not api_key:
     st.warning("Please enter your OpenAI API key to continue.")
     st.stop()
 
-openai.api_key = api_key
+# Use the new OpenAI client
+client = openai.OpenAI(api_key=api_key)
 
 # === SHOW REFERENCE DEFINITIONS ===
 with st.expander("📘 What do these terms mean?"):
@@ -69,16 +70,14 @@ if submitted and user_input:
     with st.spinner("Asking ChatGPT..."):
         try:
             prompt = build_prompt(user_input, df.columns.tolist())
-            client = openai.OpenAI(api_key=api_key)
 
-response = client.chat.completions.create(
-    model="gpt-4",
-    messages=[{"role": "user", "content": prompt}],
-    temperature=0.3,
-)
+            response = client.chat.completions.create(
+                model="gpt-4",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
+            )
 
-answer = response.choices[0].message.content
-
+            answer = response.choices[0].message.content
             st.markdown("### 🤖 ChatGPT's Estimate")
             st.markdown(answer)
 
